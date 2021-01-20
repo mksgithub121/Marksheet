@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Js Markshit</title>
+
+        <!-- all css -->
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="table">
+                <div class="title text-center">
+                    <h1>Marksheet</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4>Bangla</h4>
+                </div>
+                <div class="col-4 m-0">
+                    <input class="valBangla" type="number" placeholder="00">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4>English</h4>
+                </div>
+                 <div class="col-4 m-0">
+                    <input class="valEnglish" type="number" placeholder="00">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4>Math</h4>
+                </div>
+                 <div class="col-4 m-0">
+                    <input class="valMath" type="number" placeholder="00">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4>Science</h4>
+                </div>
+                <div class="col-4 m-0">
+                    <input class="valScience" type="number" placeholder="00">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4>ICT</h4>
+                </div>
+                <div class="col-4 m-0">
+                    <input class="valICT" type="number" placeholder="00">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4>Result</h4>
+                </div>
+                <div class="col-4 m-0">
+                    <input class="valResult" type="text" disabled>
+                </div>
+            </div>
+            <div class="submit">
+                <button onclick="result()">Submit</button>
+            </div>
+
+            <div class="alphabet_checker">
+                <div class="title text-center">
+                    <h2>Check Your Character</h2>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <h2>Input Your Charecter</h2>
+                    </div>
+                    <div class="col-4 m-0">
+                        <input class="valChr" type="text" placeholder="example: a, b, c, etc ">
+                    </div>
+                </div>
+                <div class="row result">
+                    <div class="col-8">
+                        <h2>Result</h2>
+                    </div>
+                    <div class="col-4 m-0">
+                        <div class="output_box"></div>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button onclick="ckeck()">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- js section -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
